@@ -43,6 +43,8 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set laststatus=2
 
+set statusline=%<%F%h%m%r%h%w\ %y\ %{&ff}\ %=\ lin:%4l\/%4L\ col:%3c\ ascii:%3b\ %3P
+
 "recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
 
