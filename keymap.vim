@@ -48,6 +48,7 @@ vnoremap <silent> , <ESC>:call NERDComment(1, "sexy")<CR>
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
+nnoremap \<space> :nohls<CR>
 inoremap <C-L> <C-O>:nohls<CR>
 
 "map Q to something useful
@@ -66,3 +67,8 @@ endfunction
 vnoremap * :<C-u>call <SID>VSetSearch()<CR>//<CR>
 vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR>
 
+" for paste mode
+set pastetoggle=<F11>
+
+" sudo write
+command W w !sudo tee % > /dev/null
