@@ -227,8 +227,8 @@ filetype indent on
 syntax on
 
 "some stuff to get the mouse going in term
-set mouse=a
-set ttymouse=xterm2
+" set mouse=a
+" set ttymouse=xterm2
 
 "tell the term has 256 colors
 set t_Co=256
@@ -240,22 +240,6 @@ set hidden
 if !has("gui")
     let g:CSApprox_loaded = 1
 endif
-
-"make <c-l> clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
-inoremap <C-L> <C-O>:nohls<CR>
-
-"map to bufexplorer
-nnoremap <C-B> :BufExplorer<cr>
-
-"map to fuzzy finder text mate stylez
-nnoremap <c-f> :FuzzyFinderTextMate<CR>
-
-"map Q to something useful
-noremap Q gq
-
-"make Y consistent with C and D
-nnoremap Y y$
 
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
@@ -275,17 +259,6 @@ function! s:SetupSnippets()
     call ExtractSnips("~/.vim/snippets/html", "xhtml")
     call ExtractSnips("~/.vim/snippets/html", "php")
 endfunction
-
-"visual search mappings
-function! s:VSetSearch()
-    let temp = @@
-    norm! gvy
-    let @/ = '\V' . substitute(escape(@@, '\'), '\n', '\\n', 'g')
-    let @@ = temp
-endfunction
-vnoremap * :<C-u>call <SID>VSetSearch()<CR>//<CR>
-vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR>
-
 
 "jump to last cursor position when opening a file
 "dont do it when writing a commit log entry
@@ -310,3 +283,6 @@ function! s:HighlightLongLines(width)
         echomsg "Usage: HighlightLongLines [natural number]"
     endif
 endfunction
+
+source ~/.vim/keymap.vim
+source ~/.vim/gdb.vim
