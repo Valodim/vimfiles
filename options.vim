@@ -5,6 +5,9 @@ set nocompatible
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+" show line numbers
+set number
+
 "store lots of :cmdline history
 set history=1000
 
