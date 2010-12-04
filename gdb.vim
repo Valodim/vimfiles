@@ -1,3 +1,28 @@
+" all bindings have , prefix
+"
+" space - init
+"  - suspend program
+" k - kill
+" W - where
+" R - run
+" Q - quit
+"
+" b - break: add
+" B - break: clear
+" t - break: clear all
+"
+" n - info: breakpoints
+" l - info: locals
+" a - info: arguments
+"
+" q - run: step into
+" w - run: step over
+" e - run: to finish
+" r - run: continue
+"
+" v - value: direct
+" V - value: referenced
+
 " vimgdb stuff
 set previewheight=12
 
