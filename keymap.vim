@@ -24,9 +24,9 @@ nnoremap <Enter> o<ESC>
 " bind utl for opening urls
 nmap ,m :Utl
 " escape from insert mode
-inoremap jj 
-inoremap hh 
-inoremap ;; ;
+inoremap jj l
+inoremap hh l
+inoremap ;; ;l
 nnoremap <space> :exec "normal i".nr2char(getchar())."\e"<CR>
 nnoremap \' :YRShow<CR>
 nnoremap K :TlistOpen<CR>
