@@ -185,17 +185,17 @@ hi Todo             ctermfg=228             ctermbg=NONE            cterm=underl
 " Spelling
 " --------
 " word not recognized
-hi SpellBad         guisp=#ee0000                                   gui=undercurl
-hi SpellBad                                 ctermbg=9               cterm=undercurl
+hi SpellBad                                                         gui=undercurl
+hi SpellBad                                 ctermbg=NONE            cterm=undercurl
 " word not capitalized
-hi SpellCap         guisp=#eeee00                                   gui=undercurl
-hi SpellCap                                 ctermbg=12              cterm=undercurl
+hi SpellCap                                                         gui=undercurl
+hi SpellCap                                 ctermbg=NONE            cterm=undercurl
 " rare word
-hi SpellRare        guisp=#ffa500                                   gui=undercurl
-hi SpellRare                                ctermbg=13              cterm=undercurl
+hi SpellRare                                                        gui=undercurl
+hi SpellRare                                ctermbg=NONE            cterm=undercurl
 " wrong spelling for selected region
-hi SpellLocal       guisp=#ffa500                                   gui=undercurl
-hi SpellLocal                               ctermbg=14              cterm=undercurl
+hi SpellLocal                                                       gui=undercurl
+hi SpellLocal                               ctermbg=NONE            cterm=undercurl
 
 
 " Cursor
