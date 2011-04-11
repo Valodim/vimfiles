@@ -235,3 +235,4 @@ endfunction
 
 source ~/.vim/keymap.vim
 source ~/.vim/gdb.vim
+source ~/.vim/omnifuncs.vim
