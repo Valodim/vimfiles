@@ -2,4 +2,7 @@ tags
 *~
 *.swp
 .VimballRecord
-undofiles/*
+.netrwhist
+undofiles
+sessions
+spell
