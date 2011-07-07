@@ -18,7 +18,8 @@ set ruler
 " search stuff
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
-set smartcase   " ignore case for lowercase-only searches
+set ignorecase  " ignore case when searching
+set smartcase   " don't ignore case for mixed case searches
 
 set nowrap      "dont wrap lines
 set linebreak   "wrap lines at convenient points
