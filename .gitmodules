@@ -8,3 +8,6 @@
 [submodule "clang_complete"]
 	path = clang_complete
 	url = git://github.com/Rip-Rip/clang_complete.git
+[submodule "vim-changepaste"]
+	path = vim-changepaste
+	url = git://github.com/Valodim/vim-changepaste.git
