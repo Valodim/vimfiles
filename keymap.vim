@@ -57,6 +57,10 @@ noremap Q gq
 "make Y consistent with C and D
 nnoremap Y y$
 
+" precise jump mapping
+nnoremap f<tab> :call PreciseJumpF(-1, -1, 0)<cr>
+onoremap f<tab> :call PreciseJumpF(-1, -1, 0)<cr>
+
 "visual search mappings
 function! s:VSetSearch()
     let temp = @@
