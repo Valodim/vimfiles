@@ -1,3 +1,7 @@
 [submodule "snippets"]
 	path = snippets
 	url = git://github.com/scrooloose/snipmate-snippets.git
+
+[submodule "vim-swap"]
+	path = vim-swap
+	url = git://github.com/Valodim/vim-swap.git
