@@ -1,1 +1,0 @@
-../vim-changepaste/doc/changepaste.txt
