@@ -88,3 +88,6 @@
 [submodule "bundle/ShowMarks"]
 	path = bundle/ShowMarks
 	url = https://github.com/vim-scripts/ShowMarks.git
+[submodule "bundle/PreciseJump"]
+	path = bundle/PreciseJump
+	url = https://github.com/vim-scripts/PreciseJump.git
