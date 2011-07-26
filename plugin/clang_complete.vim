@@ -1,1 +1,0 @@
-../clang_complete/plugin/clang_complete.vim
