@@ -6,8 +6,6 @@ if v:version >= 703
     "undo settings
     set undodir=~/.vim/undofiles
     set undofile
-
-    set colorcolumn=+1 "mark the ideal max text width
 endif
 
 "default indent settings
