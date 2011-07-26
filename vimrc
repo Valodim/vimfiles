@@ -246,3 +246,11 @@ function! s:HighlightLongLines(width)
         echomsg "Usage: HighlightLongLines [natural number]"
     endif
 endfunction
+
+let g:load_doxygen_syntax=1
+
+" for diffing
+set diffopt+=iwhite
+
+" fuzzyfinder: igore bunch of stuff
+let g:fuzzy_ignore = "*.png;*.PNG;*.JPG;*.jpg;*.GIF;*.gif"
