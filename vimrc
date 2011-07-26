@@ -1,4 +1,3 @@
-
 if v:version >= 703
     "undo settings
     set undodir=~/.vim/undofiles
@@ -263,8 +262,3 @@ function! s:HighlightLongLines(width)
         echomsg "Usage: HighlightLongLines [natural number]"
     endif
 endfunction
-
-source ~/.vim/keymap.vim
-source ~/.vim/gdb.vim
-source ~/.vim/omnifuncs.vim
-source ~/.vim/options.vim
