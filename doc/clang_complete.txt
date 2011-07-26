@@ -1,1 +1,0 @@
-../clang_complete/doc/clang_complete.txt
