@@ -4,4 +4,6 @@ tags
 .VimballRecord
 undofiles/*
 projects/*
+sessions/*
+spell/*
 .netrwhist

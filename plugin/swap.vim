@@ -1,0 +1,1 @@
+../vim-swap/plugin/swap.vim
