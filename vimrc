@@ -1,3 +1,7 @@
+"activate pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 if v:version >= 703
     "undo settings
     set undodir=~/.vim/undofiles
