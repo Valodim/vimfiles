@@ -80,8 +80,8 @@
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/vim-swap"]
-	path = vim-swap
+	path = bundle/vim-swap
 	url = git://github.com/Valodim/vim-swap.git
 [submodule "bundle/clang_complete"]
-	path = clang_complete
+	path = bundle/clang_complete
 	url = git://github.com/Rip-Rip/clang_complete.git
