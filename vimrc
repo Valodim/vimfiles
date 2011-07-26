@@ -254,3 +254,5 @@ set diffopt+=iwhite
 
 " fuzzyfinder: igore bunch of stuff
 let g:fuzzy_ignore = "*.png;*.PNG;*.JPG;*.jpg;*.GIF;*.gif"
+
+runtime! config/*.vim
