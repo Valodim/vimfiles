@@ -64,9 +64,3 @@ set t_Co=256
 
 "hide buffers when not displayed
 set hidden
-
-" focus it
-let Tlist_GainFocus_On_ToggleOpen = 1
-let Tlist_Exit_OnlyWindow = 1
-let Tlist_Close_On_Select = 0
-

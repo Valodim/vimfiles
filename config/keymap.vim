@@ -29,7 +29,7 @@ inoremap hh l
 inoremap ;; ;l
 nnoremap <space> :exec "normal i".nr2char(getchar())."\e"<CR>
 nnoremap \' :YRShow<CR>
-nnoremap K :TlistOpen<CR>
+nnoremap K :TagbarOpen<CR>
 nnoremap <C-K> :BufExplorer<CR>
 nnoremap <silent> zs :w<CR>
 nnoremap <silent> \a :A<CR>
