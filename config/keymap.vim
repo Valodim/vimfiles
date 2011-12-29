@@ -76,3 +76,6 @@ set pastetoggle=<F11>
 
 " sudo write
 command W w !sudo tee % > /dev/null
+
+" gundo. I don't use regular U anyways...
+nnoremap U :GundoToggle<cr>
